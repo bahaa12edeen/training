@@ -1,0 +1,11 @@
+div{
+    position: absolute;
+    left: 35%;
+    top: 15vw;
+    background-color:blue;
+    text-align: center;
+    width: 25%;
+}
+p{ color: white;
+    padding: 25%;
+}
