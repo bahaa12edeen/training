@@ -1,11 +1,50 @@
-div{
-    position: absolute;
-    left: 35%;
-    top: 15vw;
-    background-color:blue;
-    text-align: center;
-    width: 25%;
+.parent{
+    margin-left: 20%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:auto auto auto ;
 }
-p{ color: white;
-    padding: 25%;
+#ph1 img{
+    width: 60%;
+    border-radius: 50%;
 }
+#ph2 img {
+    width: 60%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); 
+  }
+#ph3 img{
+    width: 60%;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}     
+#ph4 img{
+    width: 60%;
+    border-radius: 50%;
+     
+}     
+#ph5 img{
+    width: 60%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}     
+#ph6 img{
+    width: 60%;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    position: relative;
+    top:-50%;
+    left: 10%;
+    text-align: justify;
+}
+  .parent:hover .image{
+    opacity: 0.3;
+  } 
+  .parent:hover .txt {
+    opacity: 0;
+  } 
+
+  
