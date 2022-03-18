@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: #2470A0;
+            text-align: center;
+           padding: 10px;
+        }
+        label{ color:#FAD3CF;
+               font-size: larger;
+            }
+            h1{
+                text-transform: capitalize;
+                color: #A696C8;
+            }
+            p, span{ 
+                color: #FAD3CF;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>employee interests survey form</h1>
+        <form action="">
+            <label for="name">Enter Your name: </label>
+            <input type="text" id="name" name="your name">
+            <br><br>
+            <label for="department">Enter Your department: </label>
+            <input type="text" id="department" name="your department">
+            <br><br>
+            <label for="about">Tell us a little about yourself:</label>
+            <textarea id="about" name="about" rows="4" cols="25"></textarea>
+            <br><br>
+            <span>Do you exercise at home?</span>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="no">
+            <label for="no">No</label>
+            <br><br>
+            <p>How do like to read about your favourite topics?</p>
+            <input type="checkbox" id="book" name="book">
+            <label for="book">Books</label>
+            <input type="checkbox" id="online" name="online">
+            <label for="online">Online resources</label>
+            <input type="checkbox" id="phone" name="phone">
+            <label for="phone">Phone apps</label>
+            <input type="checkbox" id="mag" name="magazine">
+            <label for="mag">Magazines</label>
+            <br><br>
+            <p>What genrw of movies do you like? <span>
+                <select>
+                    <option value="comedy">Comedy</option>
+                    <option value="action">Action</option>
+                    <option value="drama">Drama</option>
+                </select>
+            </span> </p>
+            <button type="submit"> Submit form </button>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
